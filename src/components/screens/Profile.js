@@ -44,12 +44,12 @@ const Profile = () => {
     <View style={{width: '100%', height: '100%', backgroundColor: 'white'}}>
       <View style={{width: '100%', padding: 10}}>
         <ProfileBody
-          name="Mr Peobody"
-          accountName="mr_peobody"
+          name="travel talker"
+          accountName="travel_talk"
           profileImage={require('../../storage/images/userProfile.png')}
-          followers="3.6M"
-          following="35"
-          post="458"
+          followers="0"
+          following="0"
+          post="0"
         />
         <ProfileButtons
           id={0}

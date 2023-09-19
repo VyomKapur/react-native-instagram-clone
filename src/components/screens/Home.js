@@ -28,13 +28,12 @@ const Home = () => {
             fontSize: 25,
             fontWeight: '500',
           }}>
-          Instagram
+          Travel Talks
         </Text>
         <Feather name="navigation" style={{fontSize: 24}} />
       </View>
 
       <ScrollView>
-        <Stories />
         <Post />
         <View
           style={{justifyContent: 'center', alignItems: 'center', padding: 20}}>

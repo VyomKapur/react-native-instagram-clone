@@ -48,11 +48,10 @@ const App = () => {
             return <Ionic name={iconName} size={size} color={colour} />;
           },
         })}>
-        <Tab.Screen name="Home" component={Home} />
+
         <Tab.Screen name="Search" component={Search} />
         <Tab.Screen name="Reels" component={Reels} />
-        <Tab.Screen name="Activity" component={Activity} />
-        <Tab.Screen name="Profile" component={Profile} />
+        
       </Tab.Navigator>
     );
   };

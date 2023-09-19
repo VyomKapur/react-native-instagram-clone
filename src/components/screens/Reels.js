@@ -27,7 +27,7 @@ const Reels = () => {
           padding: 10,
         }}>
         <Text style={{fontSize: 20, fontWeight: 'bold', color: 'white'}}>
-          Reels
+          Hotels
         </Text>
         <Feather name="camera" style={{fontSize: 25, color: 'white'}} />
       </View>
